@@ -11,8 +11,9 @@ alias -g cat='batcat'
 # Git
 alias -g gi='git init'
 alias -g ga='git add'
-alias -g gc='git commit'
+alias -g gc='git commit -m'
 alias -g gs='git status'
+alias -g gp='git push origin'
 
 # Docker
 alias -g dc='docker-compose'
