@@ -5,7 +5,7 @@ source ~/.zsh/core/aliases.zsh
 
 
 # ------------------------------------
-# OPTIONS
+# OPTIONS & PROMPT
 # ------------------------------------
 source ~/.zsh/core/options.zsh
-
+source ~/.zsh/core/prompt.zsh
