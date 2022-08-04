@@ -1,8 +1,11 @@
+# Reload ZSH
 alias -g reload='source ~/.zsh/.zshrc'
 
+# exa
 alias -g ll='exa -lah'
 alias -g ls='exa'
 
+# bat
 alias -g cat='batcat'
 
 # Git
@@ -15,5 +18,10 @@ alias -g gs='git status'
 alias -g dc='docker-compose'
 alias -g dck='docker-compose kill'
 alias -g dcu='docker-compose up'
-alias -g d='docker'
-alias -g dk='docker kill'
+alias -g d='dockergit clone https://github.com/unixorn/fzf-zsh-plugin.git'
+
+# Apt
+alias -g aar='sudo apt autoremove'
+alias -g update='sudo apt update && sudo apt upgrade'
+alias -g ai='sudo apt install'
+alias -g ap='sudo apt purge'

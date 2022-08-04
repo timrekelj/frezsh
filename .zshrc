@@ -14,4 +14,5 @@ source ~/.zsh/core/prompt.zsh
 # ------------------------------------
 # Autosuggestion
 source ~/.zsh/plugins/zsh-autosuggestion/zsh-autosuggestions.zsh
-
+# Fuzzy finder
+source ~/.zsh/plugins/zsh-fzf/fzf-zsh-plugin.plugin.zsh

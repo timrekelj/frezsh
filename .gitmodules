@@ -1,3 +1,6 @@
 [submodule "plugins/zsh-autosuggestion"]
 	path = plugins/zsh-autosuggestion
 	url = https://github.com/zsh-users/zsh-autosuggestions
+[submodule "plugins/zsh-fzf"]
+	path = plugins/zsh-fzf
+	url = https://github.com/unixorn/fzf-zsh-plugin
