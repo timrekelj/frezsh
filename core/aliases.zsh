@@ -19,7 +19,7 @@ alias -g gp='git push origin'
 alias -g dc='docker-compose'
 alias -g dck='docker-compose kill'
 alias -g dcu='docker-compose up'
-alias -g d='dockergit clone https://github.com/unixorn/fzf-zsh-plugin.git'
+alias -g d='docker'
 
 # Apt
 alias -g aar='sudo apt autoremove'
