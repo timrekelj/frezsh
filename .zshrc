@@ -4,10 +4,12 @@
 source ~/.zsh/core/aliases.zsh
 
 # ------------------------------------
-# OPTIONS & PROMPT
+# OPTIONS & MORE
 # ------------------------------------
 source ~/.zsh/core/options.zsh
 source ~/.zsh/core/prompt.zsh
+source ~/.zsh/core/vim_modes.zsh
+
 
 # ------------------------------------
 # PLUGINS
