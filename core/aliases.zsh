@@ -3,7 +3,7 @@ alias -g reload='source ~/.zsh/.zshrc'
 
 # exa
 alias -g ll='exa -lah'
-alias -g ls='exa'
+alias ls='exa'
 
 # bat
 alias -g cat='batcat'
