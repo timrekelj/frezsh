@@ -11,8 +11,11 @@ HISTFILE=~/.histfile
 HISTSIZE=5000
 SAVEHIST=1000
 
+PATH=~/applications/:$PATH
+
 zstyle :compinstall filename '/home/bojan/.zshrc'
 
 autoload -Uz compinit
 compinit
 
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh

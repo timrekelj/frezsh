@@ -18,4 +18,3 @@ source ~/.zsh/plugins/zsh-autosuggestion/zsh-autosuggestions.zsh
 # Fuzzy finder
 source ~/.zsh/plugins/zsh-fzf/fzf-zsh-plugin.plugin.zsh
 
-[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
