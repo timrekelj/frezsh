@@ -8,7 +8,6 @@ source ~/.zsh/core/aliases.zsh
 # ------------------------------------
 source ~/.zsh/core/options.zsh
 source ~/.zsh/core/prompt.zsh
-source ~/.zsh/core/vim_modes.zsh
 
 
 # ------------------------------------
@@ -18,5 +17,5 @@ source ~/.zsh/core/vim_modes.zsh
 source ~/.zsh/plugins/zsh-autosuggestion/zsh-autosuggestions.zsh
 # Fuzzy finder
 source ~/.zsh/plugins/zsh-fzf/fzf-zsh-plugin.plugin.zsh
-# NVM
-source ~/.zsh/plugins/nvm/nvm.zsh
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh

@@ -15,3 +15,4 @@ zstyle :compinstall filename '/home/bojan/.zshrc'
 
 autoload -Uz compinit
 compinit
+
