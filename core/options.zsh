@@ -18,4 +18,9 @@ zstyle :compinstall filename '/home/bojan/.zshrc'
 autoload -Uz compinit
 compinit
 
+bindkey ';5C' emacs-forward-word   #one word right
+bindkey ';5D' backward-word        #one word left
+bindkey '\e[3~' delete-char        #delete character with delete button
+bindkey '^H' backward-kill-word    #delete previous word with ctrl+backspace
+
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh

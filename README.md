@@ -14,17 +14,21 @@ Even if there is no framework, there still are plugins, I just add them manually
 
 ## installation
 
-> The installation was only tested on Ubuntu 22.10, so if you are on any other OS, changes my apply
+> The installation was only tested on latest Arch (as of August 2022), so if you are on any other OS, changes my apply
 
 1. Install requirements
 
-zsh: `sudo apt install zsh`
+zsh: `sudo pacman -S zsh`
 
 > To make zsh your default shell, run `chsh -s $(which zsh)`
 
-bat: `sudo apt install bat`
+bat: `sudo pacman -S bat`
 
-exa: `sudo apt install exa`
+exa: `sudo pacman -S exa`
+
+fzf: `sudo pacman -S fzf`
+
+> To fully install fzf, run `~/.fzf/install` after finishing zsh installation and follow the instructions
 
 2. Run this command:
 
