@@ -14,6 +14,7 @@ alias -g ga='git add'
 alias -g gc='git commit -m'
 alias -g gs='git status'
 alias -g gp='git push origin'
+alias -g gpl='git pull origin'
 
 # Docker
 alias -g dc='docker-compose'
