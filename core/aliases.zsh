@@ -1,29 +1,29 @@
 # Reload ZSH
-alias -g reload='source ~/.zsh/.zshrc'
+alias reload='source ~/.zsh/.zshrc'
 
 # exa
-alias -g ll='exa -lah'
+alias ll='exa -lah'
 alias ls='exa'
 
 # bat
-alias -g cat='bat'
+alias cat='bat'
 
 # Git
-alias -g gi='git init'
-alias -g ga='git add'
-alias -g gc='git commit -m'
-alias -g gs='git status'
-alias -g gp='git push origin'
-alias -g gpl='git pull origin'
+alias gi='git init'
+alias ga='git add'
+alias gc='git commit -m'
+alias gs='git status'
+alias gp='git push origin'
+alias gpl='git pull origin'
 
 # Docker
-alias -g dc='docker-compose'
-alias -g dck='docker-compose kill'
-alias -g dcu='docker-compose up'
-alias -g d='docker'
+alias dc='docker-compose'
+alias dck='docker-compose kill'
+alias dcu='docker-compose up'
+alias d='docker'
 
 # Apt
-alias -g aar='sudo apt autoremove'
-alias -g update='sudo apt update && sudo apt upgrade'
-alias -g ai='sudo apt install'
-alias -g ap='sudo apt purge'
+alias aar='sudo apt autoremove'
+alias update='sudo apt update && sudo apt upgrade'
+alias ai='sudo apt install'
+alias ap='sudo apt purge'
