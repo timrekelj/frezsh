@@ -6,7 +6,7 @@ alias ll='exa -lah'
 alias ls='exa'
 
 # bat
-alias cat='bat'
+alias cat='batcat'
 
 # Git
 alias gi='git init'
