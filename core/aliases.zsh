@@ -23,7 +23,8 @@ alias dcu='docker-compose up'
 alias d='docker'
 
 # Apt
-alias aar='sudo apt autoremove'
-alias update='sudo apt update && sudo apt upgrade'
-alias ai='sudo apt install'
-alias ap='sudo apt purge'
+alias apt='nala'
+alias naur='sudo nala autoremove'
+alias nupdate='sudo nala update && sudo nala upgrade'
+alias ninst='sudo nala install'
+alias nurge='sudo nala purge'

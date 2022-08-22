@@ -8,25 +8,26 @@ Even if there is no framework, there still are plugins, I just add them manually
  - [fzf-zsh-plugin](https://github.com/unixorn/fzf-zsh-plugin/)
 
 ## Requirements
+ - [nala](https://gitlab.com/volian/nala)
  - [exa](https://the.exa.website/)
  - [zsh](https://www.zsh.org/)
  - [bat](https://github.com/sharkdp/bat)
 
 ## installation
 
-> The installation was only tested on latest Arch (as of August 2022), so if you are on any other OS, changes my apply
-
 1. Install requirements
 
-zsh: `sudo pacman -S zsh`
+zsh: `sudo nala -S zsh`
 
 > To make zsh your default shell, run `chsh -s $(which zsh)`
 
-bat: `sudo pacman -S bat`
+nala: `sudo apt install nala`
 
-exa: `sudo pacman -S exa`
+bat: `sudo nala install -S bat`
 
-fzf: `sudo pacman -S fzf`
+exa: `sudo nala install -S exa`
+
+fzf: `sudo nala install -S fzf`
 
 > To fully install fzf, run `~/.fzf/install` after finishing zsh installation and follow the instructions
 
