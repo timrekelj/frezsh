@@ -13,7 +13,7 @@ SAVEHIST=1000
 
 PATH=~/applications/:$PATH
 
-zstyle :compinstall filename '/home/bojan/.zshrc'
+zstyle :compinstall filename '~/.zshrc'
 
 autoload -Uz compinit
 compinit
@@ -22,6 +22,8 @@ bindkey ';5C' emacs-forward-word   #one word right
 bindkey ';5D' backward-word        #one word left
 bindkey '\e[3~' delete-char        #delete character with delete button
 bindkey '^H' backward-kill-word    #delete previous word with ctrl+backspace
+bindkey '^L' autosuggest-accept    #accept autosuggestion with ctrl+l
+bindkey '^M' autosuggest-execute   #execute autosuggestion with enter
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
