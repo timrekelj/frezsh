@@ -8,26 +8,18 @@ Even if there is no framework, there still are plugins, I just add them manually
  - [fzf-zsh-plugin](https://github.com/unixorn/fzf-zsh-plugin/)
 
 ## Requirements
- - [nala](https://gitlab.com/volian/nala)
- - [exa](https://the.exa.website/)
  - [zsh](https://www.zsh.org/)
- - [bat](https://github.com/sharkdp/bat)
+ - [fzf](https://github.com/junegunn/fzf)
 
 ## installation
 
 1. Install requirements
 
-zsh: `sudo nala -S zsh`
+zsh: `sudo apt install zsh`
 
 > To make zsh your default shell, run `chsh -s $(which zsh)`
 
-nala: `sudo apt install nala`
-
-bat: `sudo nala install -S bat`
-
-exa: `sudo nala install -S exa`
-
-fzf: `sudo nala install -S fzf`
+fzf: `sudo apt install fzf`
 
 > To fully install fzf, run `~/.fzf/install` after finishing zsh installation and follow the instructions
 
