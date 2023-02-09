@@ -16,7 +16,7 @@ setopt PROMPT_SUBST
 
 # DEFINE PROMPT...
 # ...on left side
-PROMPT='%F{106}%m%f at %B%F{208}%c%f%b$(git_branch_test_color)%F{none} > '
+PROMPT='%F{006}%m%f at %B%F{006}%c%f%b$(git_branch_test_color)%F{none} > '
 
 # ...on right side
 RPROMPT='%D{%k:%M:%S}'
