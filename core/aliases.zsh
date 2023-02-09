@@ -14,3 +14,7 @@ alias dc='docker-compose'
 alias dck='docker-compose kill'
 alias dcu='docker-compose up'
 alias d='docker'
+
+# Basic
+alias ll='ls -la'
+alias ..='cd ..'
